@@ -28,6 +28,9 @@ archives:
     format_overrides:
     - goos: windows
       format: zip
+dockers:
+  - image_templates:
+      - mar4uk/go-example
 checksum:
   name_template: 'checksums.txt'
 snapshot:
