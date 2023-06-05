@@ -30,7 +30,7 @@ archives:
       format: zip
 dockers:
   - image_templates:
-      - mar4uk/go-example
+      - ghcr.io/mar4uk/go-example/example:{{ .Version }}
 checksum:
   name_template: 'checksums.txt'
 snapshot:
